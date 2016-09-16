@@ -16,7 +16,7 @@ Prerequisites: You must have Node/npm installed.
 
 This will run lite-server with Browsersync enabled.  It should automatically launch your default web browser on http://localhost:3000.
 
-If you are interested in Angular 2, then check this out
+If you are interested in Angular 2, then [check this out](https://github.com/in-the-keyhole/angular2-now-playing).
 
 All public Keyhole Software educational events can be found on the [Keyhole Eventbrite page](http://www.eventbrite.com/o/keyhole-software-2942446951).
 
