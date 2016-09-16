@@ -1,0 +1,9 @@
+<div class="movie-container">
+    <h2>Now Playing</h2>
+    <input type="text" placeholder="Filter..." ng-model="filterText"/>
+    <ul>
+        <li ng-repeat="movie in movies | filter:filterText">
+            <a href="/movies/{{movie.id}}"><img ng-src="http://image.tmdb.org/t/p/w300{{movie.poster_path}}"/></a>
+        </li>
+    </ul>
+</div>

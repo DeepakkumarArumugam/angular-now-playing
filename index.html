@@ -1,12 +1,22 @@
-<html>
+<html ng-app="now-playing">
   <head>
+    <base href="/">
     <title>Angular - Now Playing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controller.js"></script>
+    <script src="app/service.js"></script>
+    <script src="app/routes.js"></script>
   </head>
 
   <body>
-    <h1>Hello World!</h1>
+    <ng-view></ng-view>
   </body>
 </html>
 
